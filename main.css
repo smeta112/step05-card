@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    overflow: hidden; /*запрещаем выходить за пределы body*/
+    background-color: #150329;
+    font-size: 18px;
+}
+
+.card{
+    width: 320px;
+    height: 320px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    overflow: auto;
+}
+
+.card p{
+    margin-bottom: 15px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.btnCard{
+    margin: 25px 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border: 2px solid #b07d05e3;
+    padding: 15px;
+    background-color: #d08b0b;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    color: #fff;
+    transition: 0.8s;
+}
+
+.btnCard:hover{
+    background-color: #fff;
+    color: #ad7308;
+}
