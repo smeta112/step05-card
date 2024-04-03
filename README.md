@@ -5,14 +5,14 @@
 Сфма карточка абсолютно спозиционированна: 50% от верха и левого края + выполнено смещение на -50% ширины и высоты самой карточки: transform: translate(-50%, -50%);
 -познакомились с генераторами изображений p.s смотри карту: https://goo.su/front ветка 2 Изображения
 -сформировали кнопку из тега a - добавили в кнопку:
- - display: inline-block;
- -border: 2px solid #b07d05e3;
- -text-transform: uppercase;
- -letter-spacing: 2px;и расстояние от букв
- -border-radius: 8px;
- -transition: 0.8s; время анимации
- - воспользовались свойством .btnCard:hover (свойства при наведении курсора мышки на блок
- -ограничили проект одним экраном html{height: 100%;}   
+   - display: inline-block;
+  -border: 2px solid #b07d05e3;
+  -text-transform: uppercase;
+  -letter-spacing: 2px;и расстояние от букв
+  -border-radius: 8px;
+  -transition: 0.8s; время анимации
+  - воспользовались свойством .btnCard:hover (свойства при наведении курсора мышки на блок
+  -ограничили проект одним экраном html{height: 100%;}   
 body{height: 100%;
 
 
